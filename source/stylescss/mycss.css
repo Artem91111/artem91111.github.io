@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Michroma&display=swap');
+
+body {
+    font-family: Michroma, serif;
+    background: linear-gradient(225deg, #9b948d 0%, #ffffff 100%);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: aquamarine;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: rgb(162, 162, 162);
+}
+
+.navbar-brand img {
+    width: 40px;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+.navbar-toggler {
+    /*background-color: rgb(162, 162, 162);*/
+    height: 37px;
+    padding-inline: 7px;
+    padding-bottom: 3px;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url(https://psv4.userapi.com/c909328/u657120974/docs/d9/2e1fba96a85f/Burger.png?extra=rmxVJAlhbDsgQLdsGOLbZ03Dgldx8wc2VGmlhm9PtU99FvoOLKhWJadfwENrlEwz4s_BIhXL3Mq598UZtHZi0TTNQd5ZvvrLtH9NLSPD8PtdAsnPAIkjaHfMl6F1LcoMH3tOtckDoOfUX1RslDHqFJarpw);
+    ;
+}
+
+.sidebar {
+    color: rgb(52, 52, 52);
+}
+
+.card {
+    background: linear-gradient(1deg, #a0a0a0 0%, #ffffff 100%);
+}
+
+.card a {
+    text-decoration: none;
+    color: #000;
+}
+
+.slaid-text {
+    margin: auto auto;
+}
+
+
+.footer-text {
+    margin: auto auto;
+}
+
+.footer-contacts {
+    margin: auto auto;
+}
+
+.footer-telephone {
+    margin: auto auto;
+    animation: myAnim 2s ease 0s infinite normal forwards;
+}
+
+@keyframes myAnim {
+
+    0%,
+    100% {
+        transform: rotate(0deg);
+        transform-origin: 50% 100%;
+    }
+
+    10% {
+        transform: rotate(2deg);
+    }
+
+    20%,
+    40%,
+    60% {
+        transform: rotate(-4deg);
+    }
+
+    30%,
+    50%,
+    70% {
+        transform: rotate(4deg);
+    }
+
+    80% {
+        transform: rotate(-2deg);
+    }
+
+    90% {
+        transform: rotate(2deg);
+    }
+}
+
+
+
+.button-shop {
+    background-color: aquamarine;
+    border-style: none;
+}
+
+.but-primary {}
+
+.btn-outline-primary {
+    color: #000;
+    background-color: aquamarine;
+    border-style: none;
+
+}
+
+
+.px-2 a {
+    color: aquamarine;
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+
+    .footer-telephone {
+        padding-bottom: 2%;
+    }
+
+}
